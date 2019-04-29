@@ -9,7 +9,7 @@ install:
 
 before_script:
   #  - flake8 --exclude app/dbmodels --exclude fill_db.py app
-  - flake8 pythonutils
+  - flake8 pythonutils --exit-zero
 
 script:
   - python3 -m unittest -v tests/test_simple.py 
