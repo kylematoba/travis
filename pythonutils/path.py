@@ -4,7 +4,7 @@ from typing import Dict
 
 
 def get_paths() -> Dict[str, str]:
-    tilde =  os.path.expanduser('~')
+    tilde = os.path.expanduser('~')
     # work = os.path.join(tilde, 'Documents', 'work')
     work = os.path.join(tilde, 'work')
     paths = {

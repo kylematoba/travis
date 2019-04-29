@@ -74,6 +74,3 @@ if __name__ == "__main__":
     ident = 'ident'
     fig_path = smart_save_fig(fig, ident)
     plt.close(fig)
-
-
-
