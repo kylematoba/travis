@@ -2,8 +2,10 @@ matplotlib==2.0.2
 numpy==1.15.3
 scipy==0.19.1
 seaborn==0.8
-Pillow==5.3.0
 scikit-learn==0.20.3
 sklearn==0.0
-torch==1.0.0
+
+# Pillow==5.3.0
+# Cannot have heavyweight dependencies here, like torch, since it takes too long to download and build
+# torch==1.0.0
 
