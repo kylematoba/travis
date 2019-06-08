@@ -1,2 +1,0 @@
-name = "utils"
-all = ['plotting']

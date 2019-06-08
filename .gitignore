@@ -4,6 +4,7 @@ build/*
 dist/*
 matobapython.egg-info/*
 
+*.idea/
 *.so
 *.aux
 *.log

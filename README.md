@@ -10,3 +10,17 @@
 
 A canonical example of travis + linting + coverage.
 
+
+## Testing
+For now:
+
+
+```bash
+python3 -m unittest -v tests/test_logic.py 
+
+```
+
+
+
+Might want to move to pytest (https://docs.pytest.org/en/latest/) as the project scales up.
+
